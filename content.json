@@ -1,0 +1,83 @@
+{
+  "business_name": "Orange Dental and Specialists",
+  "phone": "(714) 793-8080",
+  "email": "orangedentalandspecialists@gmail.com",
+  "address": {
+    "street": "574 N Tustin St Ste. A",
+    "city": "Orange",
+    "state": "CA",
+    "zip": "92867"
+  },
+  "hours": {
+    "monday_friday": "9:00 AM – 5:00 PM",
+    "saturday": "By Appointment",
+    "sunday": "Closed"
+  },
+  "doctors": [
+    {
+      "name": "Dr. Andrew Tuan Nguyen",
+      "credentials": "DMD, MAGD",
+      "education": "Temple University, DMD 2001",
+      "note": "Achieved Mastership in Academy of General Dentistry — earned by fewer than 2% of dentists"
+    },
+    {
+      "name": "Dr. Christine T. Phung",
+      "credentials": "DMD",
+      "education": "Temple University Kornberg School of Dentistry, 1999",
+      "specialty": "Esthetic Dentistry"
+    },
+    {
+      "name": "Dr. Sergio R. Aguilar",
+      "credentials": "DDS",
+      "experience": "Over 35 years in general dentistry and orthodontics",
+      "note": "Known for gentle care with anxious patients"
+    }
+  ],
+  "services": [
+    "Diagnostic Services",
+    "Preventive Care",
+    "Restorative Treatments",
+    "Cosmetic Dentistry (Whitening, Bonding, Veneers)",
+    "Sleep Apnea Appliances",
+    "Orthodontics (Braces & Clear Aligners)",
+    "Periodontics",
+    "Oral Surgery",
+    "Prosthodontics",
+    "Endodontics (Root Canals)",
+    "Pediatric Dentistry",
+    "Implants",
+    "Crowns & Bridges",
+    "Dentures"
+  ],
+  "testimonials": [
+    {
+      "text": "Exceptional care and friendly staff made my dental experience at Orange Dental and Specialists truly remarkable!",
+      "name": "Mary S.",
+      "rating": 5
+    }
+  ],
+  "brand_colors": {
+    "primary": "#2d6a9f",
+    "accent": "#4db8ff",
+    "dark": "#1a3a5c",
+    "white": "#ffffff"
+  },
+  "original_site": "https://orangedentistnearme.com/",
+  "images_downloaded": [
+    "assets/images/logo.png",
+    "assets/images/hero.png",
+    "assets/images/hero.webp",
+    "assets/images/office.jpg",
+    "assets/images/doctor-nguyen.jpg",
+    "assets/images/doctor-aguilar.jpg",
+    "assets/images/doctor-phung.jpg",
+    "assets/images/service1.webp",
+    "assets/images/service2.webp",
+    "assets/images/gallery1.jpg",
+    "assets/images/gallery2.jpg",
+    "assets/images/gallery3.jpg",
+    "assets/images/gallery4.jpg",
+    "assets/images/gallery5.jpg",
+    "assets/images/gallery6.jpg"
+  ]
+}

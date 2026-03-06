@@ -1,0 +1,32 @@
+/* Scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.hero-tag.reveal { transition-delay: 0.1s; }
+.hero-title.reveal { transition-delay: 0.2s; }
+.hero-sub.reveal { transition-delay: 0.3s; }
+.hero-actions.reveal { transition-delay: 0.4s; }
+.hero-cred.reveal { transition-delay: 0.5s; }
+.services-grid .reveal:nth-child(1) { transition-delay: 0.04s; }
+.services-grid .reveal:nth-child(2) { transition-delay: 0.08s; }
+.services-grid .reveal:nth-child(3) { transition-delay: 0.12s; }
+.services-grid .reveal:nth-child(4) { transition-delay: 0.16s; }
+.services-grid .reveal:nth-child(5) { transition-delay: 0.20s; }
+.services-grid .reveal:nth-child(6) { transition-delay: 0.24s; }
+.services-grid .reveal:nth-child(7) { transition-delay: 0.28s; }
+.services-grid .reveal:nth-child(8) { transition-delay: 0.32s; }
+.doctors-grid .reveal:nth-child(1) { transition-delay: 0.05s; }
+.doctors-grid .reveal:nth-child(2) { transition-delay: 0.12s; }
+.doctors-grid .reveal:nth-child(3) { transition-delay: 0.19s; }
+.gallery-grid .reveal:nth-child(1) { transition-delay: 0.05s; }
+.gallery-grid .reveal:nth-child(2) { transition-delay: 0.10s; }
+.gallery-grid .reveal:nth-child(3) { transition-delay: 0.15s; }
+.gallery-grid .reveal:nth-child(4) { transition-delay: 0.20s; }
+.gallery-grid .reveal:nth-child(5) { transition-delay: 0.25s; }
+.gallery-grid .reveal:nth-child(6) { transition-delay: 0.30s; }

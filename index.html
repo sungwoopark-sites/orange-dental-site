@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Orange Dental and Specialists | Orange, CA Family Dentistry</title>
+  <meta name="description" content="Orange Dental and Specialists — full-service dental care in Orange, CA. Three experienced doctors including Dr. Nguyen MAGD. Cosmetic, restorative, implants, orthodontics & more. Call (714) 793-8080." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Orange Dental and Specialists | Orange, CA" />
+  <meta property="og:description" content="Full-service dental care for families in Orange, CA. Three experienced doctors including a Mastership-level dentist. Call (714) 793-8080." />
+  <meta property="og:image" content="https://orange-dental-site.vercel.app/assets/images/hero.webp" />
+  <meta property="og:url" content="https://orange-dental-site.vercel.app/" />
+  <meta property="og:type" content="website" />
+
+  <!-- Preload hero -->
+  <link rel="preload" as="image" href="assets/images/hero.webp" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap&font-display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Orange Dental and Specialists",
+    "url": "https://orange-dental-site.vercel.app/",
+    "image": "https://orange-dental-site.vercel.app/assets/images/hero.webp",
+    "telephone": "(714) 793-8080",
+    "email": "orangedentalandspecialists@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "574 N Tustin St Ste. A",
+      "addressLocality": "Orange",
+      "addressRegion": "CA",
+      "postalCode": "92867",
+      "addressCountry": "US"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo" aria-label="Orange Dental and Specialists Home">
+        <img src="assets/images/logo.png" alt="Orange Dental and Specialists logo" width="140" height="50" />
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#doctors">Our Doctors</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact" class="nav-cta">Request Appointment</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-hidden="true" aria-label="Mobile navigation">
+      <a href="#services" tabindex="-1">Services</a>
+      <a href="#doctors" tabindex="-1">Our Doctors</a>
+      <a href="#about" tabindex="-1">About</a>
+      <a href="#gallery" tabindex="-1">Gallery</a>
+      <a href="#contact" tabindex="-1">Request Appointment</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-media">
+        <img
+          src="assets/images/hero.webp"
+          alt="Orange Dental and Specialists — modern dental office in Orange, CA"
+          width="1200"
+          height="600"
+          fetchpriority="high"
+          class="hero-img"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container hero-content">
+        <p class="hero-tag reveal">Orange, California</p>
+        <h1 class="hero-title reveal">Exceptional Dental Care<br>for Your Family</h1>
+        <p class="hero-sub reveal">Three experienced doctors delivering comprehensive dental services in a welcoming environment at 574 N Tustin St, Orange.</p>
+        <div class="hero-actions reveal">
+          <a href="tel:7147938080" class="btn btn-primary">Call (714) 793-8080</a>
+          <a href="#contact" class="btn btn-outline">Request Appointment</a>
+        </div>
+        <div class="hero-cred reveal">
+          <span>Dr. Nguyen &bull; MAGD &mdash; earned by &lt;2% of dentists</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST BAR -->
+    <section class="trust-bar">
+      <div class="container trust-inner">
+        <div class="trust-item reveal">
+          <strong>3 Doctors</strong>
+          <span>on staff</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item reveal">
+          <strong>MAGD</strong>
+          <span>Dr. Nguyen — top 2%</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item reveal">
+          <strong>Full Service</strong>
+          <span>all ages welcome</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item reveal">
+          <strong>574 N Tustin</strong>
+          <span>Orange, CA 92867</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Comprehensive Care</span>
+          <h2>Our Services</h2>
+          <p>From preventive cleanings to full smile restorations — we offer complete dental care under one roof.</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">&#9670;</div>
+            <h3>Preventive &amp; Diagnostic</h3>
+            <p>Routine exams, cleanings, X-rays, and early detection services to keep your smile healthy.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">&#9670;</div>
+            <h3>Cosmetic Dentistry</h3>
+            <p>Teeth whitening, bonding, and porcelain veneers to enhance your smile's appearance.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">&#9670;</div>
+            <h3>Restorative Treatments</h3>
+            <p>Crowns, bridges, dentures, and implants to restore function and aesthetics.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">&#9670;</div>
+            <h3>Orthodontics</h3>
+            <p>Traditional braces and clear aligners for children and adults seeking straighter smiles.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">&#9670;</div>
+            <h3>Oral Surgery &amp; Endo</h3>
+            <p>Extractions, root canal therapy, and other surgical procedures performed with care.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">&#9670;</div>
+            <h3>Periodontics &amp; Pediatric</h3>
+            <p>Gum disease treatment and gentle dental care for children of all ages.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">&#9670;</div>
+            <h3>Sleep Apnea Appliances</h3>
+            <p>Custom oral appliances to help manage sleep apnea and improve rest quality.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">&#9670;</div>
+            <h3>Dental Implants</h3>
+            <p>Long-lasting tooth replacement solutions that look and feel like natural teeth.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOCTORS -->
+    <section class="doctors" id="doctors">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Meet the Team</span>
+          <h2>Our Doctors</h2>
+          <p>Three experienced, compassionate doctors committed to your dental health.</p>
+        </div>
+        <div class="doctors-grid">
+          <div class="doctor-card reveal">
+            <div class="doctor-photo">
+              <img src="assets/images/doctor-nguyen.jpg" alt="Dr. Andrew Tuan Nguyen, DMD, MAGD" width="375" height="410" loading="lazy" />
+            </div>
+            <div class="doctor-info">
+              <h3>Dr. Andrew Tuan Nguyen</h3>
+              <p class="doctor-creds">DMD, MAGD</p>
+              <p class="doctor-bio">Graduate of Temple University (DMD, 2001). Achieved Mastership in the Academy of General Dentistry — a distinction earned by fewer than 2% of dentists in the country.</p>
+            </div>
+          </div>
+          <div class="doctor-card reveal">
+            <div class="doctor-photo">
+              <img src="assets/images/doctor-phung.jpg" alt="Dr. Christine T. Phung, DMD" width="375" height="410" loading="lazy" />
+            </div>
+            <div class="doctor-info">
+              <h3>Dr. Christine T. Phung</h3>
+              <p class="doctor-creds">DMD</p>
+              <p class="doctor-bio">Graduate of Temple University Kornberg School of Dentistry (1999). Specializes in esthetic dentistry with a focus on beautiful, natural-looking results.</p>
+            </div>
+          </div>
+          <div class="doctor-card reveal">
+            <div class="doctor-photo">
+              <img src="assets/images/doctor-aguilar.jpg" alt="Dr. Sergio R. Aguilar, DDS" width="375" height="410" loading="lazy" />
+            </div>
+            <div class="doctor-info">
+              <h3>Dr. Sergio R. Aguilar</h3>
+              <p class="doctor-creds">DDS</p>
+              <p class="doctor-bio">Over 35 years of experience in general dentistry and orthodontics. Known for his gentle approach and ability to put anxious patients at ease.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="container about-inner">
+        <div class="about-image reveal">
+          <img src="assets/images/office.jpg" alt="Orange Dental and Specialists office" width="720" height="400" loading="lazy" />
+        </div>
+        <div class="about-content">
+          <span class="section-tag reveal">About Us</span>
+          <h2 class="reveal">Exceptional Care for Families in Orange, CA</h2>
+          <p class="reveal">Orange Dental and Specialists offers exceptional dental care to families in Orange, California. Our practice combines advanced technology with a welcoming environment designed to put patients of all ages at ease.</p>
+          <p class="reveal">Our team of three experienced doctors brings decades of combined expertise across general, cosmetic, restorative, and specialty dental care.</p>
+
+          <blockquote class="testimonial reveal">
+            <p>"Exceptional care and friendly staff made my dental experience at Orange Dental and Specialists truly remarkable!"</p>
+            <footer>— Mary S.</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Our Office</span>
+          <h2>A Look Inside</h2>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item reveal">
+            <img src="assets/images/gallery1.jpg" alt="Orange Dental office interior" width="400" height="400" loading="lazy" />
+          </div>
+          <div class="gallery-item reveal">
+            <img src="assets/images/gallery2.jpg" alt="Orange Dental treatment room" width="400" height="400" loading="lazy" />
+          </div>
+          <div class="gallery-item reveal">
+            <img src="assets/images/gallery3.jpg" alt="Orange Dental office" width="400" height="400" loading="lazy" />
+          </div>
+          <div class="gallery-item reveal">
+            <img src="assets/images/gallery4.jpg" alt="Orange Dental office space" width="400" height="400" loading="lazy" />
+          </div>
+          <div class="gallery-item reveal">
+            <img src="assets/images/gallery5.jpg" alt="Orange Dental treatment area" width="400" height="400" loading="lazy" />
+          </div>
+          <div class="gallery-item reveal">
+            <img src="assets/images/gallery6.jpg" alt="Orange Dental office room" width="400" height="400" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container contact-inner">
+        <div class="contact-info reveal">
+          <span class="section-tag">Schedule a Visit</span>
+          <h2>Request an Appointment</h2>
+          <p>Call us or fill out the form and we'll be in touch promptly.</p>
+          <div class="contact-details">
+            <div class="contact-detail">
+              <strong>Phone</strong>
+              <a href="tel:7147938080">(714) 793-8080</a>
+            </div>
+            <div class="contact-detail">
+              <strong>Email</strong>
+              <a href="mailto:orangedentalandspecialists@gmail.com">orangedentalandspecialists@gmail.com</a>
+            </div>
+            <div class="contact-detail">
+              <strong>Address</strong>
+              <span>574 N Tustin St Ste. A<br>Orange, CA 92867</span>
+            </div>
+            <div class="contact-detail">
+              <strong>Hours</strong>
+              <span>Mon–Fri: 9am – 5pm<br>Sat: By Appointment</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form reveal" action="https://formspree.io/f/xyzformspree" method="POST">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Jane Smith" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required placeholder="(714) 555-1234" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required placeholder="jane@email.com" />
+          </div>
+          <div class="form-group">
+            <label for="service">Service Requested</label>
+            <select id="service" name="service">
+              <option value="">Select a service...</option>
+              <option>General Exam &amp; Cleaning</option>
+              <option>Cosmetic Dentistry</option>
+              <option>Orthodontics</option>
+              <option>Implants</option>
+              <option>Root Canal / Endodontics</option>
+              <option>Oral Surgery</option>
+              <option>Sleep Apnea Appliance</option>
+              <option>Pediatric Dentistry</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Additional Notes</label>
+            <textarea id="message" name="message" rows="4" placeholder="Preferred appointment times or any other info..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Request Appointment</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/images/logo.png" alt="Orange Dental and Specialists" width="140" height="50" loading="lazy" />
+        <p>Exceptional dental care for families in Orange, California.</p>
+        <address>
+          574 N Tustin St Ste. A<br>
+          Orange, CA 92867
+        </address>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Preventive Care</a></li>
+          <li><a href="#services">Cosmetic Dentistry</a></li>
+          <li><a href="#services">Implants</a></li>
+          <li><a href="#services">Orthodontics</a></li>
+          <li><a href="#services">Oral Surgery</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Our Doctors</h4>
+        <ul>
+          <li><a href="#doctors">Dr. Nguyen, DMD, MAGD</a></li>
+          <li><a href="#doctors">Dr. Phung, DMD</a></li>
+          <li><a href="#doctors">Dr. Aguilar, DDS</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:7147938080">(714) 793-8080</a></li>
+          <li><a href="mailto:orangedentalandspecialists@gmail.com">orangedentalandspecialists@gmail.com</a></li>
+          <li>Mon–Fri: 9am – 5pm</li>
+          <li>Sat: By Appointment</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2025 Orange Dental and Specialists. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
